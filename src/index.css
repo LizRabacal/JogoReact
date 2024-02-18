@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Inter:wght@300&family=Lato&family=PT+Sans&family=Roboto+Condensed:wght@200&display=swap');
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    margin: 0;
+    padding: 0;
+background-image: url("https://img.freepik.com/free-vector/neon-landscape-background_53876-91655.jpg");  
+background-position:center;
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+}
+
+button{
+    cursor: pointer;
+    color: rgb(81, 76, 76);
+    background-color: rgb(250, 250, 123);
+    padding: 13px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    font-weight: 600;
+    border-radius: 10px;
+
+}

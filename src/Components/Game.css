@@ -1,0 +1,121 @@
+.game p {
+    font-size: 21px;
+}
+
+.game {
+
+    width: 100%;
+}
+
+.game h1 {
+    font-size: 38px;
+}
+
+.dica span {
+    color: rgb(255, 156, 44);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+div {
+    display: flex;
+    align-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.LetrasContainer span {
+    color: black;
+    background-color: white;
+    font-size: 50px;
+
+    width: 90px;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+}
+
+.LetrasContainer {
+    border: 20px solid rgb(255, 156, 44);
+    background-color: rgb(98, 0, 122);
+    margin: 4%;
+    padding: 2%;
+
+
+    display: flex;
+}
+
+.dica {
+    font-size: 20px
+}
+
+.guess input {
+    display: flex;
+    width: 40px;
+    font-size: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    height: 40px;
+    border: 2px solid black;
+    margin-right: 13%;
+}
+
+
+.game form {
+    display: flex;
+}
+
+.wrongletras span {
+    background-color: white;
+    font-size: 23px;
+    padding: 5%;
+    margin-left: 4%;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    border-radius: 5px;
+    color: black;
+    text-transform: uppercase;
+}
+
+.wrongletras {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrongletras p {}
+
+@media (max-width: 468px) {
+    .LetrasContainer span {
+        color: black;
+        background-color: white;
+        font-size: 50px;
+
+        width: 40px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 5px solid black;
+        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        border-radius: 5px;
+    }
+
+    .LetrasContainer {
+        border: 10px solid rgb(255, 156, 44);
+        background-color: rgb(98, 0, 122);
+        margin: 2%;
+        padding: 1%;
+
+
+        display: flex;
+    }
+
+    * {
+        text-align: center;
+    }
+
+}

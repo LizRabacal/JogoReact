@@ -1,0 +1,17 @@
+.SC h1{
+    letter-spacing: 2px;
+    font-size: 45px;
+   
+}
+
+.SC{
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.SC p{
+    font-size: 35px;
+
+}
